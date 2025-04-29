@@ -1,0 +1,25 @@
+:root {
+  --main: #e5e7eb;
+  --bg: #161b2a;
+  --cards-bg: #313b54;
+  --gray: #94a3b8;
+  --gray-light: #c5cad3;
+  --inputs: #1e2233;
+  --white: #fff;
+  --button: #3470ff;
+  --button-hover: #0b44cd;
+
+  --container-width: 343px;
+  --container-width-tab: 704px;
+  --container-width-desktop: 1200px;
+
+  --container-padding-x: 16px;
+
+  --transition-duration: 0.2s;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --container-padding-x: 32px;
+  }
+}
