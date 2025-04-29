@@ -1,0 +1,8 @@
+.message {
+  font-size: 28px;
+
+  @media (width <= 1376px) {
+    font-size: 18px;
+    text-align: center;
+  }
+}

@@ -1,8 +1,8 @@
 const DashBoardPage = () => {
   return (
-    <>
-      <div>Dashboard Page</div>
-    </>
+    <section>
+      <div className="container">Dashboard Page</div>
+    </section>
   );
 };
 

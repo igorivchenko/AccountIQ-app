@@ -1,0 +1,14 @@
+.header {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  @media (width <= 767.98px) {
+    flex-direction: column;
+  }
+}

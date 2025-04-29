@@ -1,0 +1,22 @@
+.field {
+  flex: 1;
+  font-size: 14px;
+  color: var(--main);
+  background-color: var(--inputs);
+  padding: 12px 44px 12px 12px;
+  width: 100%;
+  max-width: 380px;
+  height: 38px;
+  margin-left: auto;
+  outline: none;
+  border: 1px solid var(--inputs);
+  border-radius: 30px;
+
+  @media (width <= 768px) {
+    margin-left: 0;
+  }
+}
+
+.field:focus {
+  border-color: #3651b3;
+}
